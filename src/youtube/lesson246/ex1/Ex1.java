@@ -11,7 +11,7 @@ public class Ex1 {
     public static void main(String[] args) {
         /*
         Option 1
-        "line".matches("pattern") is a verification that line is to be match with pattern
+        "line".matches("pattern") is a verification that line is matches with pattern
         "String".matches("String") will return true
         System.out.println("myemail@mail.org".matches("\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}\\b"));
         */
