@@ -31,5 +31,15 @@ public class Ex2 {
         while (m3.find()) {
             System.out.println("position " + m3.start() + "of symbol: " + m3.group() + " ");
         }
+        System.out.println();
+
+        // option 4 "[0-9]{2,3}" - searching not only one digital but all digital (number)
+        // that consist from 2 to 3 symbols
+        Pattern p4 = Pattern.compile("[0-9]{2,3}");
+        Matcher m4 = p4.matcher("a1b12c240");
+        while (m4.find()) {
+            System.out.println("position " + m4.start() + "of symbol: " + m4.group() + " ");
+        }
+        System.out.println();
     }
 }
